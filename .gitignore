@@ -1,0 +1,14 @@
+# OS / Python cache
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Large local datasets and artifacts
+openfake_arrow_chunks_50_50/
+openfake_test_split/
+*.arrow
+
+# Local experiment outputs
+checkpoints/
+logs/
+wandb/
