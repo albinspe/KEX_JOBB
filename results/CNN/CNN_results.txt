@@ -1,0 +1,13 @@
+accuracy: 0.7916 - loss: 0.4690
+Test loss: 0.4690186381340027, Test Accuracy 0.7916499972343445
+    
+              precision    recall  f1-score   support
+
+        Real       0.79      0.79      0.79     10000
+        Fake       0.79      0.79      0.79     10000
+
+    accuracy                           0.79     20000
+   macro avg       0.79      0.79      0.79     20000
+weighted avg       0.79      0.79      0.79     20000
+
+ROC-AUC-score 0.8713
