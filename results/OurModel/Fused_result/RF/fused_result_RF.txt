@@ -1,0 +1,36 @@
+100% DCT, 75% Fourier, 50% Gradient - feature selection
+Bästa antal träd:  400
+Accuracy under korsvalidering:  0.8145374999999999
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+        Real       0.84      0.80      0.82     10000
+        Fake       0.81      0.85      0.83     10000
+
+    accuracy                           0.82     20000
+   macro avg       0.82      0.82      0.82     20000
+weighted avg       0.82      0.82      0.82     20000
+
+ROC-AUC-score: 0.9016
+
+
+
+
+
+UTAN FEATURE REDUCTION
+--- Optimering Klar ---
+Bästa antal träd:  500
+Accuracy under korsvalidering:  0.8074
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+        Real       0.83      0.79      0.81     10000
+        Fake       0.80      0.84      0.82     10000
+
+    accuracy                           0.81     20000
+   macro avg       0.81      0.81      0.81     20000
+weighted avg       0.81      0.81      0.81     20000
+
+ROC-AUC-score: 0.8951

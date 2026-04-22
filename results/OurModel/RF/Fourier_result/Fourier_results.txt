@@ -1,0 +1,13 @@
+Bästa antal träd  700
+Accuracy under korsvalidering  0.7425624999999999
+Sparade feature_importance.png
+              precision    recall  f1-score   support
+
+        Real       0.77      0.72      0.75     10000
+        Fake       0.74      0.78      0.76     10000
+
+    accuracy                           0.75     20000
+   macro avg       0.75      0.75      0.75     20000
+weighted avg       0.75      0.75      0.75     20000
+
+ROC-AUC-score 0.8286

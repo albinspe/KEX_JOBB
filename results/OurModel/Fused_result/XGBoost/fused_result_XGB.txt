@@ -1,0 +1,30 @@
+Bästa hyperparametrar:  {'learning_rate': 0.2, 'max_depth': 6, 'n_estimators': 300}
+Accuracy under korsvalidering:  0.8906000000000001
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+        Real       0.90      0.90      0.90     10000
+        Fake       0.90      0.90      0.90     10000
+
+    accuracy                           0.90     20000
+   macro avg       0.90      0.90      0.90     20000
+weighted avg       0.90      0.90      0.90     20000
+
+ROC-AUC-score: 0.9638
+
+
+Med feature reduction 100% DCT, 75% Fourier, 50% Gradient
+Accuracy under korsvalidering:  0.8918874999999999
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+        Real       0.90      0.90      0.90     10000
+        Fake       0.90      0.90      0.90     10000
+
+    accuracy                           0.90     20000
+   macro avg       0.90      0.90      0.90     20000
+weighted avg       0.90      0.90      0.90     20000
+
+ROC-AUC-score: 0.9647

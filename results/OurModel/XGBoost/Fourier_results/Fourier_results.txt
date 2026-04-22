@@ -1,0 +1,14 @@
+Optimering klar!
+Bästa hyperparametrar:  {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 300}
+Accuracy under korsvalidering:  0.7404875000000001
+Sparade xgb_fourier_feature_importance.png
+              precision    recall  f1-score   support
+
+        Real       0.76      0.72      0.74     10000
+        Fake       0.73      0.77      0.75     10000
+
+    accuracy                           0.74     20000
+   macro avg       0.74      0.74      0.74     20000
+weighted avg       0.74      0.74      0.74     20000
+
+ROC-AUC-score: 0.8224

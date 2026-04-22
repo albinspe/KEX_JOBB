@@ -1,0 +1,13 @@
+Bästa hyperparametrar:  {'learning_rate': 0.2, 'max_depth': 6, 'n_estimators': 300}
+Accuracy under korsvalidering:  0.8585375000000001
+Sparade xgb_gradient_feature_importance.png
+              precision    recall  f1-score   support
+
+        Real       0.87      0.86      0.86     10000
+        Fake       0.86      0.87      0.86     10000
+
+    accuracy                           0.86     20000
+   macro avg       0.86      0.86      0.86     20000
+weighted avg       0.86      0.86      0.86     20000
+
+ROC-AUC-score: 0.9388

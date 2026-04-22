@@ -1,0 +1,14 @@
+Random Forest
+Bästa antal träd  400
+Accuracy under korsvalidering  0.7906
+Sparade feature_importance.png
+              precision    recall  f1-score   support
+
+        Real       0.80      0.80      0.80     10000
+        Fake       0.80      0.80      0.80     10000
+
+    accuracy                           0.80     20000
+   macro avg       0.80      0.80      0.80     20000
+weighted avg       0.80      0.80      0.80     20000
+
+ROC-AUC-score 0.8852

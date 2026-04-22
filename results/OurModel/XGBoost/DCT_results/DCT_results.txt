@@ -1,0 +1,13 @@
+Bästa hyperparametrar:  {'learning_rate': 0.2, 'max_depth': 6, 'n_estimators': 300}
+Accuracy under korsvalidering:  0.8226749999999999
+Sparade xgb_dct_feature_importance.png
+              precision    recall  f1-score   support
+
+        Real       0.81      0.86      0.84     10000
+        Fake       0.85      0.80      0.83     10000
+
+    accuracy                           0.83     20000
+   macro avg       0.83      0.83      0.83     20000
+weighted avg       0.83      0.83      0.83     20000
+
+ROC-AUC-score: 0.9097
